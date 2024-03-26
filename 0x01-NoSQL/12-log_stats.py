@@ -3,7 +3,7 @@
 Python script that provides some stats about Nginx logs
 stored in MongoDB:
 """
-import pymongo
+from pymongo import MongoClient
 
 
 def log_nginx_stats(mongo_collection):
